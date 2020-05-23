@@ -1,0 +1,16 @@
+.login-logo {
+	display: block;
+	position: absolute;
+	left: 20%;
+	top: 120px;
+	z-index: 9;
+	border-radius: 6px;
+	width: 30%;
+	height: 30%;
+}
+.login-logo img {
+	text-align: center;
+}
+.login-logo .card {
+	border : none;
+}
