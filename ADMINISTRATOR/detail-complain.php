@@ -51,9 +51,9 @@
 		<label  class="form-label-sm"  >Di Proses Oleh</label><br>
 		<?php
 			if ($result['status']=='proses') { ?>
-		<input readonly="" type="text" name="it" class="form-control-1" value="<?= $result['IT']?>">
+		<input readonly="" type="text" name="it" class="form-control-1" value="<?= $result['it']?>">
 			<?php }elseif ($result['status']=='pending') { ?>
-						<input readonly="" type="text" class="form-control-1">
+						<input readonly="" class="form-control-1"  type="text" class="form-control-1">
 		<?php	}
 
 		?>
